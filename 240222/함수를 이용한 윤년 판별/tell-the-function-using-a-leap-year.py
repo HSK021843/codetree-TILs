@@ -4,6 +4,8 @@ def find_year(year):
             print("false")
         else:
             print("true")
+    else:
+        print("false")
 
 y = int(input())
 res = find_year(y)
